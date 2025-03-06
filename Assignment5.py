@@ -64,7 +64,7 @@ def load(transformed_data, target_table):
         cur.execute("BEGIN;")  # Start transaction
 
         # Selecting the database
-        cur.execute("USE DATABASE mydatabase")
+        cur.execute("CREATE DATABASE IF NOT EXISTS mydatabase")
 
         # Creating schema if it doesn't exist
         cur.execute("CREATE SCHEMA IF NOT EXISTS raw")
