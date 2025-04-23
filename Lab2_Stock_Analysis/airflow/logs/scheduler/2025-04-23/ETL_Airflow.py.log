@@ -68,3 +68,10 @@
 [2025-04-23T17:02:03.009+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:02:03.008+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2025-04-23T17:02:03.024+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:02:03.024+0000] {dag.py:4156} INFO - Setting next_dagrun for Stock_YFinance_Snowflake to 2025-04-22 02:00:00+00:00, run_after=2025-04-23 02:00:00+00:00
 [2025-04-23T17:02:03.035+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Airflow.py took 0.166 seconds
+[2025-04-23T17:02:33.684+0000] {processor.py:186} INFO - Started process (PID=37060) to work on /opt/airflow/dags/ETL_Airflow.py
+[2025-04-23T17:02:33.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ETL_Airflow.py for tasks to queue
+[2025-04-23T17:02:33.687+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:02:33.687+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_Airflow.py
+[2025-04-23T17:02:33.781+0000] {processor.py:925} INFO - DAG(s) 'Stock_YFinance_Snowflake' retrieved from /opt/airflow/dags/ETL_Airflow.py
+[2025-04-23T17:02:33.800+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:02:33.799+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:02:33.814+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:02:33.814+0000] {dag.py:4156} INFO - Setting next_dagrun for Stock_YFinance_Snowflake to 2025-04-22 02:00:00+00:00, run_after=2025-04-23 02:00:00+00:00
+[2025-04-23T17:02:33.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ETL_Airflow.py took 0.146 seconds
