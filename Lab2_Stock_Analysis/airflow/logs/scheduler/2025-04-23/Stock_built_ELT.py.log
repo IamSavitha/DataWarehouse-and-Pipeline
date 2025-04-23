@@ -4654,3 +4654,283 @@
 [2025-04-23T17:14:06.465+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:14:06.465+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2025-04-23T17:14:06.489+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:14:06.489+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
 [2025-04-23T17:14:06.512+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.306 seconds
+[2025-04-23T17:14:36.813+0000] {processor.py:186} INFO - Started process (PID=37522) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:14:36.817+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:14:36.825+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:14:36.824+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:14:36.997+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:14:36.997+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:14:37.004+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:14:37.027+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:14:37.027+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:14:37.053+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:14:37.053+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:14:37.074+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.280 seconds
+[2025-04-23T17:15:07.538+0000] {processor.py:186} INFO - Started process (PID=37538) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:15:07.540+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:15:07.551+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:15:07.550+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:15:07.730+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:15:07.727+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:15:07.736+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:15:07.754+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:15:07.754+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:15:07.773+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:15:07.773+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:15:07.791+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.278 seconds
+[2025-04-23T17:15:38.015+0000] {processor.py:186} INFO - Started process (PID=37554) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:15:38.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:15:38.024+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:15:38.023+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:15:38.202+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:15:38.201+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:15:38.209+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:15:38.227+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:15:38.227+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:15:38.251+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:15:38.251+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:15:38.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.274 seconds
+[2025-04-23T17:16:08.601+0000] {processor.py:186} INFO - Started process (PID=37570) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:16:08.605+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:16:08.613+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:16:08.612+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:16:08.755+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:16:08.754+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:16:08.763+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:16:08.781+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:16:08.781+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:16:08.804+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:16:08.804+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:16:08.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.233 seconds
+[2025-04-23T17:16:38.995+0000] {processor.py:186} INFO - Started process (PID=37586) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:16:38.996+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:16:39.000+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:16:38.999+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:16:39.104+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:16:39.104+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:16:39.110+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:16:39.126+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:16:39.126+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:16:39.146+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:16:39.145+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:16:39.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.176 seconds
+[2025-04-23T17:17:09.585+0000] {processor.py:186} INFO - Started process (PID=37602) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:17:09.588+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:17:09.591+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:17:09.591+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:17:09.685+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:17:09.685+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:17:09.691+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:17:09.707+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:17:09.707+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:17:09.725+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:17:09.725+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:17:09.738+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.160 seconds
+[2025-04-23T17:17:40.110+0000] {processor.py:186} INFO - Started process (PID=37618) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:17:40.111+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:17:40.114+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:17:40.113+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:17:40.217+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:17:40.217+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:17:40.223+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:17:40.236+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:17:40.236+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:17:40.253+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:17:40.253+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:17:40.270+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.171 seconds
+[2025-04-23T17:18:10.452+0000] {processor.py:186} INFO - Started process (PID=37634) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:18:10.454+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:18:10.456+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:18:10.456+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:18:10.558+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:18:10.558+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:18:10.562+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:18:10.574+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:18:10.574+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:18:10.589+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:18:10.589+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:18:10.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.157 seconds
+[2025-04-23T17:18:41.537+0000] {processor.py:186} INFO - Started process (PID=37650) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:18:41.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:18:41.564+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:18:41.564+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:18:41.681+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:18:41.681+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:18:41.691+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:18:41.710+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:18:41.710+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:18:41.726+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:18:41.725+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:18:41.738+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.212 seconds
+[2025-04-23T17:19:12.116+0000] {processor.py:186} INFO - Started process (PID=37666) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:19:12.117+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:19:12.120+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:19:12.120+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:19:12.220+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:19:12.220+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:19:12.225+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:19:12.238+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:19:12.237+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:19:12.251+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:19:12.251+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:19:12.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.158 seconds
+[2025-04-23T17:19:42.695+0000] {processor.py:186} INFO - Started process (PID=37682) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:19:42.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:19:42.700+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:19:42.699+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:19:42.805+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:19:42.805+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:19:42.809+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:19:42.820+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:19:42.820+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:19:42.834+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:19:42.834+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:19:42.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.162 seconds
+[2025-04-23T17:20:13.122+0000] {processor.py:186} INFO - Started process (PID=37698) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:20:13.123+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:20:13.127+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:20:13.127+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:20:13.258+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:20:13.258+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:20:13.264+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:20:13.281+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:20:13.281+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:20:13.303+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:20:13.303+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:20:13.318+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.204 seconds
+[2025-04-23T17:20:43.558+0000] {processor.py:186} INFO - Started process (PID=37714) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:20:43.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:20:43.562+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:20:43.561+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:20:43.668+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:20:43.668+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:20:43.673+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:20:43.689+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:20:43.689+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:20:43.705+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:20:43.705+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:20:43.718+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.168 seconds
+[2025-04-23T17:21:14.152+0000] {processor.py:186} INFO - Started process (PID=37736) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:21:14.154+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:21:14.156+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:21:14.156+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:21:14.254+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:21:14.254+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:21:14.260+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:21:14.272+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:21:14.271+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:21:14.286+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:21:14.286+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:21:14.298+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.152 seconds
+[2025-04-23T17:21:44.710+0000] {processor.py:186} INFO - Started process (PID=37752) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:21:44.711+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:21:44.717+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:21:44.716+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:21:44.868+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:21:44.868+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:21:44.876+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:21:44.896+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:21:44.896+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:21:44.918+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:21:44.917+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:21:44.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.239 seconds
+[2025-04-23T17:22:15.372+0000] {processor.py:186} INFO - Started process (PID=37768) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:22:15.373+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:22:15.376+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:22:15.376+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:22:15.482+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:22:15.481+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:22:15.486+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:22:15.500+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:22:15.500+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:22:15.515+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:22:15.515+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:22:15.528+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.167 seconds
+[2025-04-23T17:22:45.776+0000] {processor.py:186} INFO - Started process (PID=37784) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:22:45.777+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:22:45.780+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:22:45.780+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:22:45.888+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:22:45.888+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:22:45.892+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:22:45.907+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:22:45.907+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:22:45.921+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:22:45.921+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:22:45.936+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.168 seconds
+[2025-04-23T17:23:16.319+0000] {processor.py:186} INFO - Started process (PID=37800) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:23:16.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:23:16.322+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:23:16.322+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:23:16.426+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:23:16.426+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:23:16.434+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:23:16.449+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:23:16.449+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:23:16.465+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:23:16.465+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:23:16.478+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.170 seconds
+[2025-04-23T17:23:46.918+0000] {processor.py:186} INFO - Started process (PID=37816) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:23:46.919+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:23:46.923+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:23:46.922+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:23:47.026+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:23:47.026+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:23:47.030+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:23:47.044+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:23:47.044+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:23:47.062+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:23:47.062+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:23:47.076+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.167 seconds
+[2025-04-23T17:24:17.313+0000] {processor.py:186} INFO - Started process (PID=37832) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:24:17.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:24:17.328+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:24:17.327+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:24:17.530+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:24:17.530+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:24:17.537+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:24:17.562+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:24:17.561+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:24:17.586+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:24:17.586+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:24:17.600+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.301 seconds
+[2025-04-23T17:24:47.886+0000] {processor.py:186} INFO - Started process (PID=37848) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:24:47.890+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:24:47.905+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:24:47.903+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:24:48.168+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:24:48.167+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:24:48.176+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:24:48.201+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:24:48.201+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:24:48.238+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:24:48.238+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:24:48.265+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.397 seconds
+[2025-04-23T17:25:18.349+0000] {processor.py:186} INFO - Started process (PID=37864) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:25:18.351+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:25:18.354+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:25:18.354+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:25:18.468+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:25:18.467+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:25:18.475+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:25:18.492+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:25:18.491+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:25:18.510+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:25:18.509+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:25:18.528+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.191 seconds
+[2025-04-23T17:25:48.742+0000] {processor.py:186} INFO - Started process (PID=37880) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:25:48.744+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:25:48.750+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:25:48.749+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:25:48.912+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:25:48.912+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:25:48.925+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:25:48.945+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:25:48.944+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:25:48.968+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:25:48.968+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:25:48.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.259 seconds
+[2025-04-23T17:26:19.308+0000] {processor.py:186} INFO - Started process (PID=37896) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:26:19.310+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:26:19.316+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:26:19.316+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:26:19.457+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:26:19.457+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:26:19.466+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:26:19.483+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:26:19.482+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:26:19.504+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:26:19.504+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:26:19.518+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.225 seconds
+[2025-04-23T17:26:49.960+0000] {processor.py:186} INFO - Started process (PID=37912) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:26:49.962+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:26:49.965+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:26:49.964+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:26:50.072+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:26:50.072+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:26:50.076+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:26:50.098+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:26:50.098+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:26:50.121+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:26:50.121+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:26:50.136+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.184 seconds
+[2025-04-23T17:27:20.378+0000] {processor.py:186} INFO - Started process (PID=37928) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:27:20.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:27:20.382+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:27:20.382+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:27:20.493+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:27:20.493+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:27:20.498+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:27:20.513+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:27:20.512+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:27:20.531+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:27:20.531+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:27:20.547+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.176 seconds
+[2025-04-23T17:27:50.897+0000] {processor.py:186} INFO - Started process (PID=37944) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:27:50.898+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:27:50.901+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:27:50.900+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:27:51.009+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:27:51.009+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:27:51.014+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:27:51.028+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:27:51.028+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:27:51.043+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:27:51.043+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:27:51.055+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.166 seconds
+[2025-04-23T17:28:21.256+0000] {processor.py:186} INFO - Started process (PID=37960) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:28:21.257+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:28:21.259+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:28:21.259+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:28:21.367+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:28:21.366+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:28:21.371+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:28:21.385+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:28:21.385+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:28:21.405+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:28:21.405+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:28:21.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.172 seconds
+[2025-04-23T17:28:51.841+0000] {processor.py:186} INFO - Started process (PID=37976) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:28:51.842+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:28:51.846+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:28:51.845+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:28:51.947+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:28:51.947+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:28:51.951+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:28:51.964+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:28:51.964+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:28:51.977+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:28:51.977+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:28:51.989+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.156 seconds
+[2025-04-23T17:29:22.413+0000] {processor.py:186} INFO - Started process (PID=37992) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:29:22.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:29:22.423+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:29:22.422+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:29:22.592+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:29:22.592+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:29:22.602+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:29:22.620+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:29:22.619+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:29:22.642+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:29:22.641+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:29:22.658+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.256 seconds
+[2025-04-23T17:30:55.459+0000] {processor.py:186} INFO - Started process (PID=38002) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:30:55.461+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:30:55.468+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:30:55.467+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:30:55.632+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:30:55.631+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:30:55.639+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:30:55.660+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:30:55.660+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:30:55.683+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:30:55.682+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:30:55.706+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.266 seconds
+[2025-04-23T17:33:59.551+0000] {processor.py:186} INFO - Started process (PID=38018) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:33:59.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:33:59.561+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:33:59.560+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:33:59.720+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:33:59.719+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:33:59.727+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:33:59.744+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:33:59.744+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:33:59.765+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:33:59.764+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:33:59.780+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.245 seconds
+[2025-04-23T17:34:30.086+0000] {processor.py:186} INFO - Started process (PID=38034) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:34:30.087+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:34:30.091+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:34:30.091+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:34:30.203+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:34:30.202+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:34:30.208+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:34:30.226+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:34:30.226+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:34:30.243+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:34:30.243+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:34:30.258+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.181 seconds
+[2025-04-23T17:35:00.748+0000] {processor.py:186} INFO - Started process (PID=38050) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:35:00.753+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:35:00.778+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:35:00.776+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:35:01.235+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:35:01.234+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:35:01.260+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:35:01.322+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:35:01.322+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:35:01.391+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:35:01.391+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:35:01.441+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.729 seconds
+[2025-04-23T17:35:31.946+0000] {processor.py:186} INFO - Started process (PID=38066) to work on /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:35:31.949+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Stock_built_ELT.py for tasks to queue
+[2025-04-23T17:35:31.962+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:35:31.961+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:35:32.155+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:35:32.155+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-04-23T17:35:32.165+0000] {processor.py:925} INFO - DAG(s) 'stock_data_etl_dbt' retrieved from /opt/airflow/dags/Stock_built_ELT.py
+[2025-04-23T17:35:32.188+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:35:32.187+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-04-23T17:35:32.212+0000] {logging_mixin.py:190} INFO - [2025-04-23T17:35:32.211+0000] {dag.py:4156} INFO - Setting next_dagrun for stock_data_etl_dbt to 2025-04-23 03:00:00+00:00, run_after=2025-04-24 03:00:00+00:00
+[2025-04-23T17:35:32.232+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Stock_built_ELT.py took 0.307 seconds
