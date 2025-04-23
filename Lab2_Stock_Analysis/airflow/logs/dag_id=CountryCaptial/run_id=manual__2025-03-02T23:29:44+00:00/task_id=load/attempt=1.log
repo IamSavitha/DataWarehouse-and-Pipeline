@@ -1,0 +1,56 @@
+[2025-03-02T23:29:48.707+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-02T23:29:48.718+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: CountryCaptial.load manual__2025-03-02T23:29:44+00:00 [queued]>
+[2025-03-02T23:29:48.723+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: CountryCaptial.load manual__2025-03-02T23:29:44+00:00 [queued]>
+[2025-03-02T23:29:48.723+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-03-02T23:29:48.734+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): load> on 2025-03-02 23:29:44+00:00
+[2025-03-02T23:29:48.742+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'CountryCaptial', 'load', 'manual__2025-03-02T23:29:44+00:00', '--job-id', '77', '--raw', '--subdir', 'DAGS_FOLDER/country_capital_to_snowflake.py', '--cfg-path', '/tmp/tmpx2s4fajv']
+[2025-03-02T23:29:48.745+0000] {standard_task_runner.py:105} INFO - Job 77: Subtask load
+[2025-03-02T23:29:48.745+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=6613) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-02T23:29:48.746+0000] {standard_task_runner.py:72} INFO - Started process 6616 to run task
+[2025-03-02T23:29:48.782+0000] {task_command.py:467} INFO - Running <TaskInstance: CountryCaptial.load manual__2025-03-02T23:29:44+00:00 [running]> on host e39575d078f8
+[2025-03-02T23:29:48.874+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='CountryCaptial' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2025-03-02T23:29:44+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-02T23:29:44+00:00'
+[2025-03-02T23:29:48.875+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-03-02T23:29:48.889+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-6.12.5-linuxkit-aarch64-with-glibc2.36
+[2025-03-02T23:29:48.890+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-02T23:29:48.891+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-02T23:29:49.786+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-03-02T23:29:50.119+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-03-02T23:29:51.248+0000] {logging_mixin.py:190} INFO - i am doing task running 
+[2025-03-02T23:29:51.250+0000] {logging_mixin.py:190} INFO - Abkhazia - Sukhumi
+[2025-03-02T23:29:51.958+0000] {logging_mixin.py:190} INFO - Afghanistan - Kabul
+[2025-03-02T23:29:52.713+0000] {logging_mixin.py:190} INFO - Akrotiri and Dhekelia - Episkopi Cantonment
+[2025-03-02T23:29:53.622+0000] {logging_mixin.py:190} INFO - Albania - Tirana
+[2025-03-02T23:29:54.619+0000] {logging_mixin.py:190} INFO - Algeria - Algiers
+[2025-03-02T23:29:55.434+0000] {logging_mixin.py:190} INFO - American Samoa - Pago Pago
+[2025-03-02T23:29:56.175+0000] {logging_mixin.py:190} INFO - Andorra - Andorra la Vella
+[2025-03-02T23:29:56.970+0000] {logging_mixin.py:190} INFO - Angola - Luanda
+[2025-03-02T23:29:57.379+0000] {logging_mixin.py:190} INFO - Anguilla - The Valley
+[2025-03-02T23:29:57.879+0000] {logging_mixin.py:190} INFO - Antigua and Barbuda - St. John''s
+[2025-03-02T23:29:58.360+0000] {logging_mixin.py:190} INFO - Argentina - Buenos Aires
+[2025-03-02T23:29:58.824+0000] {logging_mixin.py:190} INFO - Armenia - Yerevan
+[2025-03-02T23:29:59.248+0000] {logging_mixin.py:190} INFO - Aruba - Oranjestad
+[2025-03-02T23:29:59.741+0000] {logging_mixin.py:190} INFO - Ascension Island - Georgetown
+[2025-03-02T23:30:00.770+0000] {logging_mixin.py:190} INFO - Australia - Canberra
+[2025-03-02T23:30:01.383+0000] {logging_mixin.py:190} INFO - Austria - Vienna
+[2025-03-02T23:30:02.212+0000] {logging_mixin.py:190} INFO - Azerbaijan - Baku
+[2025-03-02T23:30:03.029+0000] {logging_mixin.py:190} INFO - Bahamas - Nassau
+[2025-03-02T23:30:03.533+0000] {logging_mixin.py:190} INFO - Bahrain - Manama
+[2025-03-02T23:30:04.149+0000] {logging_mixin.py:190} INFO - Bangladesh - Dhaka
+[2025-03-02T23:30:04.652+0000] {logging_mixin.py:190} INFO - Barbados - Bridgetown
+[2025-03-02T23:30:05.157+0000] {logging_mixin.py:190} INFO - Belarus - Minsk
+[2025-03-02T23:30:05.580+0000] {logging_mixin.py:190} INFO - Belgium - Brussels
+[2025-03-02T23:30:06.186+0000] {logging_mixin.py:190} INFO - Belize - Belmopan
+[2025-03-02T23:30:06.690+0000] {logging_mixin.py:190} INFO - Benin - Porto-Novo
+[2025-03-02T23:30:07.146+0000] {logging_mixin.py:190} INFO - Bermuda - Hamilton
+[2025-03-02T23:30:07.624+0000] {logging_mixin.py:190} INFO - Bhutan - Thimphu
+[2025-03-02T23:30:08.038+0000] {logging_mixin.py:190} INFO - Bolivia - La Paz
+[2025-03-02T23:30:08.669+0000] {logging_mixin.py:190} INFO - Bosnia and Herzegovina - Sarajevo
+[2025-03-02T23:30:09.164+0000] {logging_mixin.py:190} INFO - Botswana - Gaborone
+[2025-03-02T23:30:09.683+0000] {logging_mixin.py:190} INFO - Brazil - Brasââ lia
+[2025-03-02T23:30:10.157+0000] {logging_mixin.py:190} INFO - British Virgin Islands - Road Town
+[2025-03-02T23:30:10.704+0000] {logging_mixin.py:190} INFO - Brunei - Bandar Seri Begawan
+[2025-03-02T23:30:11.200+0000] {logging_mixin.py:190} INFO - Bulgaria - Sofia
+[2025-03-02T23:30:11.642+0000] {logging_mixin.py:190} INFO - Burkina Faso - Ouagadougou
+[2025-03-02T23:30:12.132+0000] {logging_mixin.py:190} INFO - Burundi - Bujumbura
+[2025-03-02T23:30:12.844+0000] {logging_mixin.py:190} INFO - Cambodia - Phnom Penh
+[2025-03-02T23:30:12.903+0000] {local_task_job_runner.py:127} ERROR - Received SIGTERM. Terminating subprocesses

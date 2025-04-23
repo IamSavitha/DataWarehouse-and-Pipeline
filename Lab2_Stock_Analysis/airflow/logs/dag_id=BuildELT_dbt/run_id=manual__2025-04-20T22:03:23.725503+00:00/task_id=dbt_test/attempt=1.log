@@ -1,0 +1,30 @@
+[2025-04-20T22:03:37.148+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-20T22:03:37.160+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_test manual__2025-04-20T22:03:23.725503+00:00 [queued]>
+[2025-04-20T22:03:37.166+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_test manual__2025-04-20T22:03:23.725503+00:00 [queued]>
+[2025-04-20T22:03:37.166+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-04-20T22:03:37.174+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): dbt_test> on 2025-04-20 22:03:23.725503+00:00
+[2025-04-20T22:03:37.181+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'BuildELT_dbt', 'dbt_test', 'manual__2025-04-20T22:03:23.725503+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/build_elt_with_dbt.py', '--cfg-path', '/tmp/tmp9ir86623']
+[2025-04-20T22:03:37.183+0000] {standard_task_runner.py:105} INFO - Job 8: Subtask dbt_test
+[2025-04-20T22:03:37.184+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=2002) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-04-20T22:03:37.185+0000] {standard_task_runner.py:72} INFO - Started process 2003 to run task
+[2025-04-20T22:03:37.218+0000] {task_command.py:467} INFO - Running <TaskInstance: BuildELT_dbt.dbt_test manual__2025-04-20T22:03:23.725503+00:00 [running]> on host 4c9b21d4394c
+[2025-04-20T22:03:37.317+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='BuildELT_dbt' AIRFLOW_CTX_TASK_ID='dbt_test' AIRFLOW_CTX_EXECUTION_DATE='2025-04-20T22:03:23.725503+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-20T22:03:23.725503+00:00'
+[2025-04-20T22:03:37.318+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-20T22:03:37.337+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-04-20T22:03:37.338+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/***/.local/bin/dbt test --profiles-dir /opt/***/dbt --project-dir /opt/***/dbt']
+[2025-04-20T22:03:37.345+0000] {subprocess.py:86} INFO - Output:
+[2025-04-20T22:03:39.866+0000] {subprocess.py:93} INFO - [0m22:03:39  Running with dbt=1.7.19
+[2025-04-20T22:03:40.725+0000] {subprocess.py:93} INFO - [0m22:03:40  Registered adapter: snowflake=1.7.1
+[2025-04-20T22:03:40.767+0000] {subprocess.py:93} INFO - [0m22:03:40  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2025-04-20T22:03:40.767+0000] {subprocess.py:93} INFO - There are 2 unused configuration paths:
+[2025-04-20T22:03:40.767+0000] {subprocess.py:93} INFO - - models.my_new_project.input
+[2025-04-20T22:03:40.768+0000] {subprocess.py:93} INFO - - models.my_new_project.output
+[2025-04-20T22:03:40.788+0000] {subprocess.py:93} INFO - [0m22:03:40  Found 3 models, 1 snapshot, 0 sources, 0 exposures, 0 metrics, 430 macros, 0 groups, 0 semantic models
+[2025-04-20T22:03:40.790+0000] {subprocess.py:93} INFO - [0m22:03:40
+[2025-04-20T22:03:40.790+0000] {subprocess.py:93} INFO - [0m22:03:40  Nothing to do. Try checking your model configs and model specification args
+[2025-04-20T22:03:41.512+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-04-20T22:03:41.578+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-20T22:03:41.579+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=BuildELT_dbt, task_id=dbt_test, run_id=manual__2025-04-20T22:03:23.725503+00:00, execution_date=20250420T220323, start_date=20250420T220337, end_date=20250420T220341
+[2025-04-20T22:03:41.626+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-20T22:03:41.683+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-20T22:03:41.687+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

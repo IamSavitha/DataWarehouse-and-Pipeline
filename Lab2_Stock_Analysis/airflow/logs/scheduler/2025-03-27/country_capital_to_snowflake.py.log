@@ -1,0 +1,146 @@
+[2025-03-27T19:25:30.379+0000] {processor.py:186} INFO - Started process (PID=233) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:25:30.384+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:25:30.389+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:25:30.388+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:25:30.471+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:25:30.522+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:25:30.522+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:25:30.581+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:25:30.581+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:25:30.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.259 seconds
+[2025-03-27T19:26:04.598+0000] {processor.py:186} INFO - Started process (PID=332) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:26:04.602+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:26:04.615+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:26:04.614+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:26:04.731+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:26:04.766+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:26:04.766+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:26:04.817+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:26:04.816+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:26:04.853+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.300 seconds
+[2025-03-27T19:26:35.688+0000] {processor.py:186} INFO - Started process (PID=367) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:26:35.690+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:26:35.692+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:26:35.692+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:26:35.715+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:26:35.731+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:26:35.731+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:26:35.755+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:26:35.754+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:26:35.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.091 seconds
+[2025-03-27T19:27:06.545+0000] {processor.py:186} INFO - Started process (PID=403) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:27:06.546+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:27:06.548+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:27:06.547+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:27:06.575+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:27:06.598+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:27:06.598+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:27:06.620+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:27:06.619+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:27:06.636+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.096 seconds
+[2025-03-27T19:27:37.264+0000] {processor.py:186} INFO - Started process (PID=439) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:27:37.267+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:27:37.269+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:27:37.269+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:27:37.293+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:27:37.313+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:27:37.312+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:27:37.340+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:27:37.340+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:27:37.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.101 seconds
+[2025-03-27T19:28:08.079+0000] {processor.py:186} INFO - Started process (PID=475) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:28:08.081+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:28:08.083+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:28:08.082+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:28:08.113+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:28:08.136+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:28:08.136+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:28:08.165+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:28:08.164+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:28:08.184+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.111 seconds
+[2025-03-27T19:28:39.031+0000] {processor.py:186} INFO - Started process (PID=511) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:28:39.033+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:28:39.038+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:28:39.037+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:28:39.087+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:28:39.132+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:28:39.131+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:28:39.303+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:28:39.302+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:28:39.378+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.355 seconds
+[2025-03-27T19:29:10.100+0000] {processor.py:186} INFO - Started process (PID=547) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:29:10.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:29:10.104+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:29:10.103+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:29:10.139+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:29:10.155+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:29:10.155+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:29:10.194+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:29:10.193+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:29:10.214+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.121 seconds
+[2025-03-27T19:29:41.135+0000] {processor.py:186} INFO - Started process (PID=589) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:29:41.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:29:41.140+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:29:41.140+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:29:41.164+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:29:41.192+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:29:41.192+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:29:41.250+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:29:41.249+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:29:41.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.136 seconds
+[2025-03-27T19:30:11.892+0000] {processor.py:186} INFO - Started process (PID=625) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:30:11.893+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:30:11.895+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:30:11.895+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:30:11.918+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:30:11.935+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:30:11.934+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:30:11.960+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:30:11.960+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:30:11.979+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.092 seconds
+[2025-03-27T19:30:42.637+0000] {processor.py:186} INFO - Started process (PID=661) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:30:42.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:30:42.640+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:30:42.640+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:30:42.668+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:30:42.695+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:30:42.694+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:30:42.717+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:30:42.717+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:30:42.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.115 seconds
+[2025-03-27T19:31:13.474+0000] {processor.py:186} INFO - Started process (PID=697) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:31:13.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:31:13.479+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:31:13.478+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:31:13.503+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:31:13.523+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:31:13.522+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:31:13.544+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:31:13.544+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:31:13.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.100 seconds
+[2025-03-27T19:31:44.245+0000] {processor.py:186} INFO - Started process (PID=733) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:31:44.247+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:31:44.249+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:31:44.248+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:31:44.279+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:31:44.299+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:31:44.299+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:31:44.318+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:31:44.318+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:31:44.339+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.100 seconds
+[2025-03-27T19:32:15.020+0000] {processor.py:186} INFO - Started process (PID=769) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:32:15.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:32:15.023+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:32:15.023+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:32:15.050+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:32:15.070+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:32:15.069+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:32:15.095+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:32:15.095+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:32:15.118+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.104 seconds
+[2025-03-27T19:32:45.913+0000] {processor.py:186} INFO - Started process (PID=805) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:32:45.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:32:45.917+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:32:45.917+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:32:45.944+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:32:45.963+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:32:45.962+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:32:45.987+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:32:45.986+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:32:46.009+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.101 seconds
+[2025-03-27T19:33:17.703+0000] {processor.py:186} INFO - Started process (PID=841) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:33:17.707+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:33:17.727+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:33:17.723+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:33:17.868+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:33:17.973+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:33:17.971+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:33:18.131+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:33:18.130+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:33:18.206+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.545 seconds
+[2025-03-27T19:33:48.710+0000] {processor.py:186} INFO - Started process (PID=877) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:33:48.711+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:33:48.713+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:33:48.713+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:33:48.736+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:33:48.753+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:33:48.753+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:33:48.777+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:33:48.777+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:33:48.794+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.089 seconds
+[2025-03-27T19:34:19.017+0000] {processor.py:186} INFO - Started process (PID=913) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:34:19.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:34:19.025+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:34:19.024+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:34:19.074+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:34:19.097+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:34:19.096+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:34:19.134+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:34:19.134+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:34:19.169+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.165 seconds
+[2025-03-27T19:34:49.239+0000] {processor.py:186} INFO - Started process (PID=944) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:34:49.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:34:49.254+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:34:49.253+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:34:49.310+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:34:49.336+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:34:49.336+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:34:49.363+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:34:49.363+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:34:49.380+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.154 seconds
+[2025-03-27T19:35:20.451+0000] {processor.py:186} INFO - Started process (PID=985) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:35:20.453+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:35:20.456+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:35:20.455+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:35:20.478+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:35:20.496+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:35:20.496+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:35:20.517+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:35:20.517+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
+[2025-03-27T19:35:20.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/country_capital_to_snowflake.py took 0.088 seconds
+[2025-03-27T19:35:51.546+0000] {processor.py:186} INFO - Started process (PID=1021) to work on /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:35:51.548+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/country_capital_to_snowflake.py for tasks to queue
+[2025-03-27T19:35:51.550+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:35:51.549+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:35:51.578+0000] {processor.py:925} INFO - DAG(s) 'CountryCaptial' retrieved from /opt/airflow/dags/country_capital_to_snowflake.py
+[2025-03-27T19:35:51.597+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:35:51.596+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:35:51.630+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:35:51.629+0000] {dag.py:4156} INFO - Setting next_dagrun for CountryCaptial to 2025-03-26 02:00:00+00:00, run_after=2025-03-27 02:00:00+00:00
