@@ -1,0 +1,78 @@
+[2025-05-02T22:09:36.564+0000] {processor.py:186} INFO - Started process (PID=870) to work on /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:09:36.565+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_elt_trigger.py for tasks to queue
+[2025-05-02T22:09:36.571+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:09:36.570+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:09:36.585+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:09:36.581+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Etl_elt_trigger.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_elt_trigger.py", line 20, in <module>
+    trigger_etl >> trigger_elt
+    ~~~~~~~~~~~~^^~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 233, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(TriggerDagRunOperator): trigger_etl_dag>, <Task(TriggerDagRunOperator): trigger_elt_dag>]
+[2025-05-02T22:09:36.585+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:09:36.617+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_elt_trigger.py took 0.064 seconds
+[2025-05-02T22:10:07.017+0000] {processor.py:186} INFO - Started process (PID=891) to work on /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:10:07.019+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_elt_trigger.py for tasks to queue
+[2025-05-02T22:10:07.024+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:07.024+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:10:07.038+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:07.036+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/Etl_elt_trigger.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/Etl_elt_trigger.py", line 20, in <module>
+    trigger_etl >> trigger_elt
+    ~~~~~~~~~~~~^^~~~~~~~~~~~~
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 263, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskmixin.py", line 233, in _set_relatives
+    raise AirflowException(
+airflow.exceptions.AirflowException: Tried to create relationships between tasks that don't have DAGs yet. Set the DAG for at least one task and try again: [<Task(TriggerDagRunOperator): trigger_etl_dag>, <Task(TriggerDagRunOperator): trigger_elt_dag>]
+[2025-05-02T22:10:07.039+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:10:07.066+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_elt_trigger.py took 0.063 seconds
+[2025-05-02T22:10:16.215+0000] {processor.py:186} INFO - Started process (PID=901) to work on /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:10:16.217+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_elt_trigger.py for tasks to queue
+[2025-05-02T22:10:16.220+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:16.219+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:10:16.232+0000] {processor.py:925} INFO - DAG(s) 'trigger_etl_then_elt' retrieved from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:10:16.357+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:16.356+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:trigger_etl_then_elt
+[2025-05-02T22:10:16.364+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:16.363+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:trigger_etl_then_elt
+[2025-05-02T22:10:16.367+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:16.367+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:trigger_etl_then_elt
+[2025-05-02T22:10:16.370+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:16.370+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:trigger_etl_then_elt
+[2025-05-02T22:10:16.373+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:16.373+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:trigger_etl_then_elt
+[2025-05-02T22:10:16.376+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:16.376+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:trigger_etl_then_elt
+[2025-05-02T22:10:16.379+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:16.379+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:trigger_etl_then_elt
+[2025-05-02T22:10:16.380+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:16.379+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:10:16.390+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:16.390+0000] {dag.py:3252} INFO - Creating ORM DAG for trigger_etl_then_elt
+[2025-05-02T22:10:16.401+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:16.400+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_etl_then_elt to 2025-05-01 00:00:00+00:00, run_after=2025-05-02 00:00:00+00:00
+[2025-05-02T22:10:16.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_elt_trigger.py took 0.211 seconds
+[2025-05-02T22:10:19.477+0000] {processor.py:186} INFO - Started process (PID=906) to work on /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:10:19.479+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_elt_trigger.py for tasks to queue
+[2025-05-02T22:10:19.486+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:19.484+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:10:19.520+0000] {processor.py:925} INFO - DAG(s) 'trigger_etl_then_elt' retrieved from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:10:19.549+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:19.548+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:10:19.582+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:19.581+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_etl_then_elt to 2025-05-01 00:00:00+00:00, run_after=2025-05-02 00:00:00+00:00
+[2025-05-02T22:10:19.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_elt_trigger.py took 0.153 seconds
+[2025-05-02T22:10:50.484+0000] {processor.py:186} INFO - Started process (PID=953) to work on /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:10:50.487+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_elt_trigger.py for tasks to queue
+[2025-05-02T22:10:50.504+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:50.503+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:10:50.552+0000] {processor.py:925} INFO - DAG(s) 'trigger_etl_then_elt' retrieved from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:10:50.607+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:50.606+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:10:50.711+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:10:50.711+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_etl_then_elt to 2025-05-02 00:00:00+00:00, run_after=2025-05-03 00:00:00+00:00
+[2025-05-02T22:10:50.749+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_elt_trigger.py took 0.334 seconds
+[2025-05-02T22:11:21.624+0000] {processor.py:186} INFO - Started process (PID=974) to work on /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:11:21.628+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_elt_trigger.py for tasks to queue
+[2025-05-02T22:11:21.644+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:11:21.640+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:11:21.692+0000] {processor.py:925} INFO - DAG(s) 'trigger_etl_then_elt' retrieved from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:11:21.759+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:11:21.758+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:11:21.864+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:11:21.861+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_etl_then_elt to 2025-05-02 00:00:00+00:00, run_after=2025-05-03 00:00:00+00:00
+[2025-05-02T22:11:21.953+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_elt_trigger.py took 0.394 seconds
