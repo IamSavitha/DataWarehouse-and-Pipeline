@@ -4499,3 +4499,80 @@
 [2025-05-02T22:14:02.126+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:14:02.125+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2025-05-02T22:14:02.152+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:14:02.152+0000] {dag.py:4156} INFO - Setting next_dagrun for tesla_stock_sentiment_api_etl to 2025-05-02 02:30:00+00:00, run_after=2025-05-03 02:30:00+00:00
 [2025-05-02T22:14:02.168+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tesla_stock_etl_api.py took 0.275 seconds
+[2025-05-02T22:14:32.568+0000] {processor.py:186} INFO - Started process (PID=1105) to work on /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:14:32.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tesla_stock_etl_api.py for tasks to queue
+[2025-05-02T22:14:32.575+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:14:32.575+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:14:32.746+0000] {processor.py:925} INFO - DAG(s) 'tesla_stock_sentiment_api_etl' retrieved from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:14:32.780+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:14:32.780+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:14:32.817+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:14:32.817+0000] {dag.py:4156} INFO - Setting next_dagrun for tesla_stock_sentiment_api_etl to 2025-05-02 02:30:00+00:00, run_after=2025-05-03 02:30:00+00:00
+[2025-05-02T22:14:32.846+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tesla_stock_etl_api.py took 0.292 seconds
+[2025-05-02T22:15:03.475+0000] {processor.py:186} INFO - Started process (PID=1126) to work on /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:15:03.481+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tesla_stock_etl_api.py for tasks to queue
+[2025-05-02T22:15:03.489+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:15:03.488+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:15:03.659+0000] {processor.py:925} INFO - DAG(s) 'tesla_stock_sentiment_api_etl' retrieved from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:15:03.694+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:15:03.694+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:15:03.722+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:15:03.721+0000] {dag.py:4156} INFO - Setting next_dagrun for tesla_stock_sentiment_api_etl to 2025-05-02 02:30:00+00:00, run_after=2025-05-03 02:30:00+00:00
+[2025-05-02T22:15:03.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tesla_stock_etl_api.py took 0.278 seconds
+[2025-05-02T22:15:34.187+0000] {processor.py:186} INFO - Started process (PID=1153) to work on /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:15:34.189+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tesla_stock_etl_api.py for tasks to queue
+[2025-05-02T22:15:34.198+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:15:34.197+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:15:34.343+0000] {processor.py:925} INFO - DAG(s) 'tesla_stock_sentiment_api_etl' retrieved from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:15:34.372+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:15:34.372+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:15:34.398+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:15:34.398+0000] {dag.py:4156} INFO - Setting next_dagrun for tesla_stock_sentiment_api_etl to 2025-05-02 02:30:00+00:00, run_after=2025-05-03 02:30:00+00:00
+[2025-05-02T22:15:34.413+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tesla_stock_etl_api.py took 0.235 seconds
+[2025-05-02T22:16:04.936+0000] {processor.py:186} INFO - Started process (PID=1174) to work on /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:16:04.938+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tesla_stock_etl_api.py for tasks to queue
+[2025-05-02T22:16:04.952+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:16:04.948+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:16:05.107+0000] {processor.py:925} INFO - DAG(s) 'tesla_stock_sentiment_api_etl' retrieved from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:16:05.138+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:16:05.137+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:16:05.170+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:16:05.170+0000] {dag.py:4156} INFO - Setting next_dagrun for tesla_stock_sentiment_api_etl to 2025-05-02 02:30:00+00:00, run_after=2025-05-03 02:30:00+00:00
+[2025-05-02T22:16:05.188+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tesla_stock_etl_api.py took 0.266 seconds
+[2025-05-02T22:16:35.292+0000] {processor.py:186} INFO - Started process (PID=1195) to work on /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:16:35.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tesla_stock_etl_api.py for tasks to queue
+[2025-05-02T22:16:35.296+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:16:35.296+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:16:35.409+0000] {processor.py:925} INFO - DAG(s) 'tesla_stock_sentiment_api_etl' retrieved from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:16:35.427+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:16:35.426+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:16:35.447+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:16:35.447+0000] {dag.py:4156} INFO - Setting next_dagrun for tesla_stock_sentiment_api_etl to 2025-05-02 02:30:00+00:00, run_after=2025-05-03 02:30:00+00:00
+[2025-05-02T22:16:35.460+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tesla_stock_etl_api.py took 0.174 seconds
+[2025-05-02T22:17:05.877+0000] {processor.py:186} INFO - Started process (PID=1216) to work on /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:17:05.878+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tesla_stock_etl_api.py for tasks to queue
+[2025-05-02T22:17:05.882+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:17:05.881+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:17:06.013+0000] {processor.py:925} INFO - DAG(s) 'tesla_stock_sentiment_api_etl' retrieved from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:17:06.030+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:17:06.029+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:17:06.047+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:17:06.047+0000] {dag.py:4156} INFO - Setting next_dagrun for tesla_stock_sentiment_api_etl to 2025-05-02 02:30:00+00:00, run_after=2025-05-03 02:30:00+00:00
+[2025-05-02T22:17:06.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tesla_stock_etl_api.py took 0.192 seconds
+[2025-05-02T22:17:36.414+0000] {processor.py:186} INFO - Started process (PID=1242) to work on /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:17:36.415+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tesla_stock_etl_api.py for tasks to queue
+[2025-05-02T22:17:36.422+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:17:36.421+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:17:36.589+0000] {processor.py:925} INFO - DAG(s) 'tesla_stock_sentiment_api_etl' retrieved from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:17:36.620+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:17:36.619+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:17:36.646+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:17:36.646+0000] {dag.py:4156} INFO - Setting next_dagrun for tesla_stock_sentiment_api_etl to 2025-05-02 02:30:00+00:00, run_after=2025-05-03 02:30:00+00:00
+[2025-05-02T22:17:36.662+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tesla_stock_etl_api.py took 0.262 seconds
+[2025-05-02T22:18:06.964+0000] {processor.py:186} INFO - Started process (PID=1263) to work on /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:18:06.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tesla_stock_etl_api.py for tasks to queue
+[2025-05-02T22:18:06.971+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:18:06.971+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:18:07.128+0000] {processor.py:925} INFO - DAG(s) 'tesla_stock_sentiment_api_etl' retrieved from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:18:07.154+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:18:07.153+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:18:07.180+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:18:07.180+0000] {dag.py:4156} INFO - Setting next_dagrun for tesla_stock_sentiment_api_etl to 2025-05-02 02:30:00+00:00, run_after=2025-05-03 02:30:00+00:00
+[2025-05-02T22:18:07.198+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tesla_stock_etl_api.py took 0.246 seconds
+[2025-05-02T22:18:37.560+0000] {processor.py:186} INFO - Started process (PID=1284) to work on /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:18:37.562+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tesla_stock_etl_api.py for tasks to queue
+[2025-05-02T22:18:37.564+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:18:37.563+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:18:37.691+0000] {processor.py:925} INFO - DAG(s) 'tesla_stock_sentiment_api_etl' retrieved from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:18:37.711+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:18:37.711+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:18:37.734+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:18:37.734+0000] {dag.py:4156} INFO - Setting next_dagrun for tesla_stock_sentiment_api_etl to 2025-05-02 02:30:00+00:00, run_after=2025-05-03 02:30:00+00:00
+[2025-05-02T22:18:37.754+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tesla_stock_etl_api.py took 0.200 seconds
+[2025-05-02T22:19:08.152+0000] {processor.py:186} INFO - Started process (PID=1305) to work on /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:19:08.154+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tesla_stock_etl_api.py for tasks to queue
+[2025-05-02T22:19:08.156+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:19:08.156+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:19:08.314+0000] {processor.py:925} INFO - DAG(s) 'tesla_stock_sentiment_api_etl' retrieved from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:19:08.341+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:19:08.341+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:19:08.367+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:19:08.367+0000] {dag.py:4156} INFO - Setting next_dagrun for tesla_stock_sentiment_api_etl to 2025-05-02 02:30:00+00:00, run_after=2025-05-03 02:30:00+00:00
+[2025-05-02T22:19:08.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tesla_stock_etl_api.py took 0.244 seconds
+[2025-05-02T22:19:38.865+0000] {processor.py:186} INFO - Started process (PID=1326) to work on /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:19:38.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tesla_stock_etl_api.py for tasks to queue
+[2025-05-02T22:19:38.873+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:19:38.872+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:19:39.051+0000] {processor.py:925} INFO - DAG(s) 'tesla_stock_sentiment_api_etl' retrieved from /opt/airflow/dags/tesla_stock_etl_api.py
+[2025-05-02T22:19:39.081+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:19:39.081+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:19:39.106+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:19:39.106+0000] {dag.py:4156} INFO - Setting next_dagrun for tesla_stock_sentiment_api_etl to 2025-05-02 02:30:00+00:00, run_after=2025-05-03 02:30:00+00:00
+[2025-05-02T22:19:39.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tesla_stock_etl_api.py took 0.279 seconds
