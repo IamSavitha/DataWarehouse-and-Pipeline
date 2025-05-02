@@ -16,3 +16,11 @@
 [2025-05-02T22:10:45.678+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
 [2025-05-02T22:10:47.071+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
 [2025-05-02T22:10:47.168+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-05-02T22:13:33.446+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-05-02T22:13:33.458+0000] {logging_mixin.py:190} INFO - ✅ Stock data (via Alpha Vantage) loaded into dev.raw.tesla_stock_data.
+[2025-05-02T22:13:33.466+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-02T22:13:33.494+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-02T22:13:33.495+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=tesla_stock_sentiment_api_etl, task_id=load_stock_data_to_snowflake, run_id=manual__2025-05-02T22:10:40.543057+00:00, execution_date=20250502T221040, start_date=20250502T221045, end_date=20250502T221333
+[2025-05-02T22:13:33.568+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-02T22:13:33.605+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-02T22:13:33.607+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -76,3 +76,45 @@ airflow.exceptions.AirflowException: Tried to create relationships between tasks
 [2025-05-02T22:11:21.759+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:11:21.758+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2025-05-02T22:11:21.864+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:11:21.861+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_etl_then_elt to 2025-05-02 00:00:00+00:00, run_after=2025-05-03 00:00:00+00:00
 [2025-05-02T22:11:21.953+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_elt_trigger.py took 0.394 seconds
+[2025-05-02T22:11:52.099+0000] {processor.py:186} INFO - Started process (PID=995) to work on /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:11:52.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_elt_trigger.py for tasks to queue
+[2025-05-02T22:11:52.108+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:11:52.107+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:11:52.124+0000] {processor.py:925} INFO - DAG(s) 'trigger_etl_then_elt' retrieved from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:11:52.150+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:11:52.149+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:11:52.174+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:11:52.174+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_etl_then_elt to 2025-05-02 00:00:00+00:00, run_after=2025-05-03 00:00:00+00:00
+[2025-05-02T22:11:52.191+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_elt_trigger.py took 0.105 seconds
+[2025-05-02T22:12:22.725+0000] {processor.py:186} INFO - Started process (PID=1016) to work on /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:12:22.726+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_elt_trigger.py for tasks to queue
+[2025-05-02T22:12:22.732+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:12:22.732+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:12:22.744+0000] {processor.py:925} INFO - DAG(s) 'trigger_etl_then_elt' retrieved from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:12:22.766+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:12:22.765+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:12:22.792+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:12:22.792+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_etl_then_elt to 2025-05-02 00:00:00+00:00, run_after=2025-05-03 00:00:00+00:00
+[2025-05-02T22:12:22.808+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_elt_trigger.py took 0.091 seconds
+[2025-05-02T22:12:53.316+0000] {processor.py:186} INFO - Started process (PID=1037) to work on /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:12:53.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_elt_trigger.py for tasks to queue
+[2025-05-02T22:12:53.336+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:12:53.334+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:12:53.385+0000] {processor.py:925} INFO - DAG(s) 'trigger_etl_then_elt' retrieved from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:12:53.440+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:12:53.439+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:12:53.490+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:12:53.490+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_etl_then_elt to 2025-05-02 00:00:00+00:00, run_after=2025-05-03 00:00:00+00:00
+[2025-05-02T22:12:53.517+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_elt_trigger.py took 0.232 seconds
+[2025-05-02T22:13:23.971+0000] {processor.py:186} INFO - Started process (PID=1058) to work on /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:13:23.973+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_elt_trigger.py for tasks to queue
+[2025-05-02T22:13:23.981+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:13:23.980+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:13:24.006+0000] {processor.py:925} INFO - DAG(s) 'trigger_etl_then_elt' retrieved from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:13:24.040+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:13:24.040+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:13:24.066+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:13:24.066+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_etl_then_elt to 2025-05-02 00:00:00+00:00, run_after=2025-05-03 00:00:00+00:00
+[2025-05-02T22:13:24.085+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_elt_trigger.py took 0.133 seconds
+[2025-05-02T22:13:54.702+0000] {processor.py:186} INFO - Started process (PID=1079) to work on /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:13:54.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_elt_trigger.py for tasks to queue
+[2025-05-02T22:13:54.773+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:13:54.771+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:13:54.827+0000] {processor.py:925} INFO - DAG(s) 'trigger_etl_then_elt' retrieved from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:13:54.887+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:13:54.887+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:13:54.929+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:13:54.929+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_etl_then_elt to 2025-05-02 00:00:00+00:00, run_after=2025-05-03 00:00:00+00:00
+[2025-05-02T22:13:54.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_elt_trigger.py took 0.282 seconds
+[2025-05-02T22:14:25.394+0000] {processor.py:186} INFO - Started process (PID=1100) to work on /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:14:25.396+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/Etl_elt_trigger.py for tasks to queue
+[2025-05-02T22:14:25.402+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:14:25.402+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:14:25.422+0000] {processor.py:925} INFO - DAG(s) 'trigger_etl_then_elt' retrieved from /opt/airflow/dags/Etl_elt_trigger.py
+[2025-05-02T22:14:25.456+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:14:25.456+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:14:25.485+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:14:25.485+0000] {dag.py:4156} INFO - Setting next_dagrun for trigger_etl_then_elt to 2025-05-02 00:00:00+00:00, run_after=2025-05-03 00:00:00+00:00
+[2025-05-02T22:14:25.503+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/Etl_elt_trigger.py took 0.122 seconds

@@ -1158,3 +1158,43 @@ airflow.exceptions.AirflowNotFoundException: The conn_id `snowflake_conn` isn't 
 [2025-05-02T22:11:45.097+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:11:45.096+0000] {dag.py:3229} INFO - Sync 1 DAGs
 [2025-05-02T22:11:45.111+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:11:45.111+0000] {dag.py:4156} INFO - Setting next_dagrun for sentiment_analysis_stock_ELT_dbt to None, run_after=None
 [2025-05-02T22:11:45.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py took 0.125 seconds
+[2025-05-02T22:12:15.585+0000] {processor.py:186} INFO - Started process (PID=1011) to work on /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py
+[2025-05-02T22:12:15.587+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py for tasks to queue
+[2025-05-02T22:12:15.592+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:12:15.591+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py
+[2025-05-02T22:12:15.630+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:12:15.630+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-05-02T22:12:15.649+0000] {processor.py:925} INFO - DAG(s) 'sentiment_analysis_stock_ELT_dbt' retrieved from /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py
+[2025-05-02T22:12:15.672+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:12:15.672+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:12:15.695+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:12:15.695+0000] {dag.py:4156} INFO - Setting next_dagrun for sentiment_analysis_stock_ELT_dbt to None, run_after=None
+[2025-05-02T22:12:15.715+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py took 0.143 seconds
+[2025-05-02T22:12:46.161+0000] {processor.py:186} INFO - Started process (PID=1032) to work on /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py
+[2025-05-02T22:12:46.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py for tasks to queue
+[2025-05-02T22:12:46.169+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:12:46.168+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py
+[2025-05-02T22:12:46.205+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:12:46.205+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-05-02T22:12:46.219+0000] {processor.py:925} INFO - DAG(s) 'sentiment_analysis_stock_ELT_dbt' retrieved from /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py
+[2025-05-02T22:12:46.237+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:12:46.237+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:12:46.253+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:12:46.252+0000] {dag.py:4156} INFO - Setting next_dagrun for sentiment_analysis_stock_ELT_dbt to None, run_after=None
+[2025-05-02T22:12:46.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py took 0.123 seconds
+[2025-05-02T22:13:16.849+0000] {processor.py:186} INFO - Started process (PID=1053) to work on /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py
+[2025-05-02T22:13:16.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py for tasks to queue
+[2025-05-02T22:13:16.865+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:13:16.864+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py
+[2025-05-02T22:13:16.915+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:13:16.915+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-05-02T22:13:16.939+0000] {processor.py:925} INFO - DAG(s) 'sentiment_analysis_stock_ELT_dbt' retrieved from /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py
+[2025-05-02T22:13:16.964+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:13:16.963+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:13:16.982+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:13:16.982+0000] {dag.py:4156} INFO - Setting next_dagrun for sentiment_analysis_stock_ELT_dbt to None, run_after=None
+[2025-05-02T22:13:17.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py took 0.176 seconds
+[2025-05-02T22:13:47.452+0000] {processor.py:186} INFO - Started process (PID=1074) to work on /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py
+[2025-05-02T22:13:47.454+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py for tasks to queue
+[2025-05-02T22:13:47.461+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:13:47.460+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py
+[2025-05-02T22:13:47.500+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:13:47.500+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-05-02T22:13:47.522+0000] {processor.py:925} INFO - DAG(s) 'sentiment_analysis_stock_ELT_dbt' retrieved from /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py
+[2025-05-02T22:13:47.550+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:13:47.550+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:13:47.575+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:13:47.575+0000] {dag.py:4156} INFO - Setting next_dagrun for sentiment_analysis_stock_ELT_dbt to None, run_after=None
+[2025-05-02T22:13:47.643+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py took 0.209 seconds
+[2025-05-02T22:14:18.278+0000] {processor.py:186} INFO - Started process (PID=1095) to work on /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py
+[2025-05-02T22:14:18.280+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py for tasks to queue
+[2025-05-02T22:14:18.288+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:14:18.287+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py
+[2025-05-02T22:14:18.329+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:14:18.328+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn'
+[2025-05-02T22:14:18.346+0000] {processor.py:925} INFO - DAG(s) 'sentiment_analysis_stock_ELT_dbt' retrieved from /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py
+[2025-05-02T22:14:18.372+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:14:18.372+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-02T22:14:18.391+0000] {logging_mixin.py:190} INFO - [2025-05-02T22:14:18.391+0000] {dag.py:4156} INFO - Setting next_dagrun for sentiment_analysis_stock_ELT_dbt to None, run_after=None
+[2025-05-02T22:14:18.408+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/sentiment_analysis_build_elt_with_dbt.py took 0.154 seconds
