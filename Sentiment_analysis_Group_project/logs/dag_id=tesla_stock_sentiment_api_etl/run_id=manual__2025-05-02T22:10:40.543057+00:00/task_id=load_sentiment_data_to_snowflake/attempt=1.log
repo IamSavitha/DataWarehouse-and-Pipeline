@@ -16,3 +16,22 @@
 [2025-05-02T22:10:45.679+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
 [2025-05-02T22:10:46.774+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
 [2025-05-02T22:10:46.898+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-05-02T22:37:16.678+0000] {job.py:229} INFO - Heartbeat recovered after 303.12 seconds
+[2025-05-02T22:37:50.930+0000] {connectionpool.py:824} WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='sfedu02-ksb65579.snowflakecomputing.com', port=443): Read timed out. (read timeout=60)")': /queries/01bc1672-0305-1f21-0004-59ff0037daaa/result?request_guid=a5a5a5b2-d606-45c9-9f05-335884d24a2e
+[2025-05-02T22:43:15.176+0000] {job.py:229} INFO - Heartbeat recovered after 302.80 seconds
+[2025-05-02T22:47:49.981+0000] {job.py:229} INFO - Heartbeat recovered after 103.24 seconds
+[2025-05-02T22:52:13.057+0000] {job.py:229} INFO - Heartbeat recovered after 207.56 seconds
+[2025-05-02T22:57:38.213+0000] {job.py:229} INFO - Heartbeat recovered after 299.98 seconds
+[2025-05-02T23:05:52.570+0000] {job.py:229} INFO - Heartbeat recovered after 438.85 seconds
+[2025-05-02T23:20:31.073+0000] {job.py:229} INFO - Heartbeat recovered after 853.24 seconds
+[2025-05-02T23:31:19.259+0000] {job.py:229} INFO - Heartbeat recovered after 592.62 seconds
+[2025-05-02T23:38:00.076+0000] {job.py:229} INFO - Heartbeat recovered after 345.21 seconds
+[2025-05-02T23:55:15.259+0000] {job.py:229} INFO - Heartbeat recovered after 1009.91 seconds
+[2025-05-03T00:07:19.369+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-05-03T00:07:19.376+0000] {logging_mixin.py:190} INFO - ✅ Sentiment data loaded into dev.raw.tesla_tweet_data.
+[2025-05-03T00:07:19.381+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-03T00:07:19.451+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-03T00:07:19.452+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=tesla_stock_sentiment_api_etl, task_id=load_sentiment_data_to_snowflake, run_id=manual__2025-05-02T22:10:40.543057+00:00, execution_date=20250502T221040, start_date=20250502T221045, end_date=20250503T000719
+[2025-05-03T00:07:19.506+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-03T00:07:19.554+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-03T00:07:19.555+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
