@@ -1,0 +1,37 @@
+[2025-05-07T02:37:28.410+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-07T02:37:28.431+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_snapshot manual__2025-05-07T02:37:03.636571+00:00 [queued]>
+[2025-05-07T02:37:28.444+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_snapshot manual__2025-05-07T02:37:03.636571+00:00 [queued]>
+[2025-05-07T02:37:28.445+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-05-07T02:37:28.464+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): dbt_snapshot> on 2025-05-07 02:37:03.636571+00:00
+[2025-05-07T02:37:28.480+0000] {standard_task_runner.py:72} INFO - Started process 4943 to run task
+[2025-05-07T02:37:28.484+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'BuildELT_dbt', 'dbt_snapshot', 'manual__2025-05-07T02:37:03.636571+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/build_elt_with_dbt.py', '--cfg-path', '/tmp/tmpupy3inq2']
+[2025-05-07T02:37:28.494+0000] {standard_task_runner.py:105} INFO - Job 62: Subtask dbt_snapshot
+[2025-05-07T02:37:28.558+0000] {task_command.py:467} INFO - Running <TaskInstance: BuildELT_dbt.dbt_snapshot manual__2025-05-07T02:37:03.636571+00:00 [running]> on host 55fd2231a72d
+[2025-05-07T02:37:28.663+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='BuildELT_dbt' AIRFLOW_CTX_TASK_ID='dbt_snapshot' AIRFLOW_CTX_EXECUTION_DATE='2025-05-07T02:37:03.636571+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-07T02:37:03.636571+00:00'
+[2025-05-07T02:37:28.664+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-07T02:37:28.680+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-05-07T02:37:28.683+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/***/.local/bin/dbt snapshot --profiles-dir /opt/***/tesla_project --project-dir /opt/***/tesla_project']
+[2025-05-07T02:37:28.694+0000] {subprocess.py:86} INFO - Output:
+[2025-05-07T02:37:31.250+0000] {subprocess.py:93} INFO - [0m02:37:31  Running with dbt=1.8.7
+[2025-05-07T02:37:32.404+0000] {subprocess.py:93} INFO - [0m02:37:32  Registered adapter: snowflake=1.8.1
+[2025-05-07T02:37:32.923+0000] {subprocess.py:93} INFO - [0m02:37:32  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2025-05-07T02:37:32.924+0000] {subprocess.py:93} INFO - There are 1 unused configuration paths:
+[2025-05-07T02:37:32.925+0000] {subprocess.py:93} INFO - - models.tesla_project.example
+[2025-05-07T02:37:33.212+0000] {subprocess.py:93} INFO - [0m02:37:33  Found 3 models, 1 snapshot, 1 seed, 1 source, 459 macros
+[2025-05-07T02:37:33.219+0000] {subprocess.py:93} INFO - [0m02:37:33
+[2025-05-07T02:37:37.721+0000] {subprocess.py:93} INFO - [0m02:37:37  Concurrency: 1 threads (target='dev')
+[2025-05-07T02:37:37.724+0000] {subprocess.py:93} INFO - [0m02:37:37
+[2025-05-07T02:37:37.750+0000] {subprocess.py:93} INFO - [0m02:37:37  1 of 1 START snapshot snapshots.final_raw_snapshot ............................. [RUN]
+[2025-05-07T02:37:41.954+0000] {subprocess.py:93} INFO - [0m02:37:41  1 of 1 OK snapshotted snapshots.final_raw_snapshot ............................. [[32mSUCCESS 0[0m in 4.19s]
+[2025-05-07T02:37:41.971+0000] {subprocess.py:93} INFO - [0m02:37:41
+[2025-05-07T02:37:41.973+0000] {subprocess.py:93} INFO - [0m02:37:41  Finished running 1 snapshot in 0 hours 0 minutes and 8.75 seconds (8.75s).
+[2025-05-07T02:37:42.232+0000] {subprocess.py:93} INFO - [0m02:37:42
+[2025-05-07T02:37:42.234+0000] {subprocess.py:93} INFO - [0m02:37:42  [32mCompleted successfully[0m
+[2025-05-07T02:37:42.236+0000] {subprocess.py:93} INFO - [0m02:37:42
+[2025-05-07T02:37:42.238+0000] {subprocess.py:93} INFO - [0m02:37:42  Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[2025-05-07T02:37:42.940+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-05-07T02:37:42.962+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-07T02:37:42.963+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=BuildELT_dbt, task_id=dbt_snapshot, run_id=manual__2025-05-07T02:37:03.636571+00:00, execution_date=20250507T023703, start_date=20250507T023728, end_date=20250507T023742
+[2025-05-07T02:37:43.008+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-07T02:37:43.043+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-07T02:37:43.047+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,22 @@
+version: 2
+
+version: 2
+
+sources:
+  - name: raw
+    database: dev
+    schema: raw
+    description: "Schema which stores raw tables (ETL)"
+
+    tables:
+      - name: final_raw_table
+        identifier: final_raw_table
+        description: "Merged table of Tesla stock and tweet sentiment data, used as input for feature engineering"
+
+
+
+
+
+
+
+

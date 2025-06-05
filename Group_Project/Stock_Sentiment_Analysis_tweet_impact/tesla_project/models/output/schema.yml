@@ -1,0 +1,38 @@
+version: 2
+
+models:
+  - name: sentiment_features_final
+    description: >
+      Features engineered from raw Tesla stock and sentiment data.
+      Includes lag features, rolling averages, and target variable `price_change_pct`.
+    columns:
+      - name: date
+        description: "Trading date"
+      - name: close
+        description: "Daily closing price of Tesla stock"
+      - name: sentiment_score
+        description: "Average sentiment score for tweets on that day"
+      - name: tweet_count
+        description: "Total number of tweets processed for that day"
+      - name: lag_1_sentiment
+        description: "Sentiment score from the previous trading day"
+      - name: avg_3d_sentiment
+        description: "3-day rolling average of sentiment score"
+      - name: avg_7d_close
+        description: "7-day rolling average of close price"
+      - name: weighted_impact
+        description: "Sentiment score weighted by tweet count"
+      - name: volume
+        description: "Trading volume of Tesla stock"
+
+  - name: output
+    description: >
+      Final prediction table with model outputs from Snowflake ML model
+      estimating the impact of sentiment on Tesla stock price.
+    columns:
+      - name: date
+        description: "Trading date"
+      - name: price_change_pct
+        description: "Actual % change in Tesla stock price"
+      - name: predicted_price_change
+        description: "Predicted % change in Tesla stock price based on sentiment"

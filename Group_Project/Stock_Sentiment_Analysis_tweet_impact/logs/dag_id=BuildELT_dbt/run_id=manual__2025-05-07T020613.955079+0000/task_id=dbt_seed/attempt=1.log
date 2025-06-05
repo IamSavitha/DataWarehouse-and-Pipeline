@@ -1,0 +1,40 @@
+[2025-05-07T02:06:17.292+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-07T02:06:17.340+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_seed manual__2025-05-07T02:06:13.955079+00:00 [queued]>
+[2025-05-07T02:06:17.363+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: BuildELT_dbt.dbt_seed manual__2025-05-07T02:06:13.955079+00:00 [queued]>
+[2025-05-07T02:06:17.364+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-05-07T02:06:17.413+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): dbt_seed> on 2025-05-07 02:06:13.955079+00:00
+[2025-05-07T02:06:17.426+0000] {standard_task_runner.py:72} INFO - Started process 3702 to run task
+[2025-05-07T02:06:17.430+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'BuildELT_dbt', 'dbt_seed', 'manual__2025-05-07T02:06:13.955079+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/build_elt_with_dbt.py', '--cfg-path', '/tmp/tmp_pje96u8']
+[2025-05-07T02:06:17.434+0000] {standard_task_runner.py:105} INFO - Job 49: Subtask dbt_seed
+[2025-05-07T02:06:17.500+0000] {task_command.py:467} INFO - Running <TaskInstance: BuildELT_dbt.dbt_seed manual__2025-05-07T02:06:13.955079+00:00 [running]> on host 55fd2231a72d
+[2025-05-07T02:06:17.705+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='BuildELT_dbt' AIRFLOW_CTX_TASK_ID='dbt_seed' AIRFLOW_CTX_EXECUTION_DATE='2025-05-07T02:06:13.955079+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-07T02:06:13.955079+00:00'
+[2025-05-07T02:06:17.711+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-07T02:06:17.807+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-05-07T02:06:17.821+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/***/.local/bin/dbt run --profiles-dir /opt/***/tesla_project --project-dir /opt/***/tesla_project']
+[2025-05-07T02:06:17.851+0000] {subprocess.py:86} INFO - Output:
+[2025-05-07T02:06:22.466+0000] {subprocess.py:93} INFO - [0m02:06:22  Running with dbt=1.8.7
+[2025-05-07T02:06:26.405+0000] {subprocess.py:93} INFO - [0m02:06:26  Registered adapter: snowflake=1.8.1
+[2025-05-07T02:06:27.871+0000] {subprocess.py:93} INFO - [0m02:06:27  [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+[2025-05-07T02:06:27.872+0000] {subprocess.py:93} INFO - There are 1 unused configuration paths:
+[2025-05-07T02:06:27.873+0000] {subprocess.py:93} INFO - - models.tesla_project.example
+[2025-05-07T02:06:28.184+0000] {subprocess.py:93} INFO - [0m02:06:28  Found 3 models, 1 snapshot, 1 seed, 1 source, 459 macros
+[2025-05-07T02:06:28.192+0000] {subprocess.py:93} INFO - [0m02:06:28
+[2025-05-07T02:06:34.607+0000] {subprocess.py:93} INFO - [0m02:06:34  Concurrency: 1 threads (target='dev')
+[2025-05-07T02:06:34.610+0000] {subprocess.py:93} INFO - [0m02:06:34
+[2025-05-07T02:06:34.646+0000] {subprocess.py:93} INFO - [0m02:06:34  1 of 3 START sql table model analytics.input ................................... [RUN]
+[2025-05-07T02:06:37.042+0000] {subprocess.py:93} INFO - [0m02:06:37  1 of 3 OK created sql table model analytics.input .............................. [[32mSUCCESS 1[0m in 2.39s]
+[2025-05-07T02:06:37.052+0000] {subprocess.py:93} INFO - [0m02:06:37  2 of 3 START sql table model analytics.sentiment_features_final ................ [RUN]
+[2025-05-07T02:06:39.076+0000] {subprocess.py:93} INFO - [0m02:06:39  2 of 3 OK created sql table model analytics.sentiment_features_final ........... [[32mSUCCESS 1[0m in 2.02s]
+[2025-05-07T02:06:39.091+0000] {subprocess.py:93} INFO - [0m02:06:39  3 of 3 START sql table model analytics.output .................................. [RUN]
+[2025-05-07T02:06:41.225+0000] {subprocess.py:93} INFO - [0m02:06:41  3 of 3 OK created sql table model analytics.output ............................. [[32mSUCCESS 1[0m in 2.13s]
+[2025-05-07T02:06:41.241+0000] {subprocess.py:93} INFO - [0m02:06:41
+[2025-05-07T02:06:41.244+0000] {subprocess.py:93} INFO - [0m02:06:41  Finished running 3 table models in 0 hours 0 minutes and 13.05 seconds (13.05s).
+[2025-05-07T02:06:41.388+0000] {subprocess.py:93} INFO - [0m02:06:41
+[2025-05-07T02:06:41.391+0000] {subprocess.py:93} INFO - [0m02:06:41  [32mCompleted successfully[0m
+[2025-05-07T02:06:41.393+0000] {subprocess.py:93} INFO - [0m02:06:41
+[2025-05-07T02:06:41.395+0000] {subprocess.py:93} INFO - [0m02:06:41  Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[2025-05-07T02:06:42.793+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-05-07T02:06:42.914+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-07T02:06:42.917+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=BuildELT_dbt, task_id=dbt_seed, run_id=manual__2025-05-07T02:06:13.955079+00:00, execution_date=20250507T020613, start_date=20250507T020617, end_date=20250507T020642
+[2025-05-07T02:06:43.000+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-07T02:06:43.019+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
