@@ -1,78 +1,114 @@
+# 📈 Stock Sentiment Analysis: Assessing the Impact of Tweets on Stock Prices
 
-# 📈 Stock Sentiment Analysis: Impact of Tweets on Stock Prices
+This project investigates the relationship between Twitter sentiment and fluctuations in stock prices. By aligning tweet sentiment data with stock market activity, we aim to understand how public opinion on social media may influence financial trends.
 
-This project explores the correlation between Twitter sentiment and stock market movements. By analyzing tweet sentiments and their temporal alignment with stock price fluctuations, we aim to determine the extent to which public opinion on social media influences financial markets.
+---
 
 ## 🧠 Objective
 
-To assess whether sentiment extracted from tweets mentioning specific stocks can serve as a predictor for stock price movements, thereby providing insights into market dynamics influenced by public opinion.
+To evaluate whether sentiments expressed in tweets mentioning specific stocks can predict corresponding stock price movements, offering insights into the influence of public sentiment on market behavior.
 
+---
 
 ## 🛠️ Tools & Technologies
 
-- **Programming Languages**: Python
-- **Libraries**: pandas, NumPy, scikit-learn, TextBlob, matplotlib, seaborn
-- **Data Sources**:
-  - Twitter API for tweet data
-  - Yahoo Finance API for stock prices
+* **Programming Language**: Python
+* **Libraries**: `pandas`, `NumPy`, `scikit-learn`, `TextBlob`, `matplotlib`, `seaborn`
+* **Data Sources**:
+
+  * Twitter API (for tweet data)
+  * Yahoo Finance API (for historical stock prices)
+
+---
 
 ## 🔍 Methodology
 
-1. **Data Collection**:
-   - Extracted tweets mentioning target stock tickers using the Twitter API.
-   - Retrieved historical stock prices corresponding to the same time frame.
+1. **Data Collection**
 
-2. **Data Preprocessing**:
-   - Cleaned tweet text by removing URLs, mentions, hashtags, and special characters.
-   - Handled missing values and ensured temporal alignment between tweets and stock prices.
+   * Gathered tweets referencing target stock tickers using the Twitter API.
+   * Retrieved corresponding stock price data from Yahoo Finance.
 
-3. **Sentiment Analysis**:
-   - Applied TextBlob to compute sentiment polarity scores for each tweet.
-   - Categorized sentiments as positive, negative, or neutral based on polarity thresholds.
+2. **Data Preprocessing**
 
-4. **Correlation Analysis**:
-   - Aggregated daily sentiment scores.
-   - Calculated correlation coefficients between daily average sentiment and stock price changes.
-   - Visualized trends and patterns to interpret the relationship.
+   * Cleaned tweets by removing noise such as URLs, mentions, hashtags, and special characters.
+   * Addressed missing values and ensured time alignment between tweet and price data.
+
+3. **Sentiment Analysis**
+
+   * Used TextBlob to compute sentiment polarity for each tweet.
+   * Classified tweets as positive, negative, or neutral based on polarity thresholds.
+
+4. **Correlation Analysis**
+
+   * Aggregated sentiment scores on a daily basis.
+   * Calculated correlation coefficients between average daily sentiment and daily stock price changes.
+   * Visualized patterns to interpret potential relationships.
+
+---
 
 ## 📊 Results
-- Report in file Datawarehouse-and-Pipeline/Group_Project/Stock_Sentiment_Analysis_tweet_impact/groupproject_report.pdf
-- Presentation in file Datawarehouse-and-Pipeline/Group_Project/Stock_Sentiment_Analysis_tweet_impact/Data 226 Presentation.pdf
-- Identified a moderate positive correlation between tweet sentiment and stock price movements for certain stocks.
-- Observed that spikes in positive sentiment often preceded stock price increases, suggesting potential predictive power.
 
+* **Report**: `Datawarehouse-and-Pipeline/Group_Project/Stock_Sentiment_Analysis_tweet_impact/groupproject_report.pdf`
+* **Presentation**: `Datawarehouse-and-Pipeline/Group_Project/Stock_Sentiment_Analysis_tweet_impact/Data 226 Presentation.pdf`
+* Discovered a **moderate positive correlation** between tweet sentiment and stock price changes for select stocks.
+* Noted that spikes in positive sentiment often **preceded stock price increases**, indicating potential predictive value.
 
-## 🚀 How to Run
+---
+
+## 🚀 How to Run the Project
 
 1. **Clone the Repository**:
 
    ```bash
    git clone https://github.com/IamSavitha/DataWarehouse-and-Pipeline.git
    cd DataWarehouse-and-Pipeline/Group_Project/Stock_Sentiment_Analysis_tweet_impact
+   ```
 
 2. **Install Dependencies**:
 
-    ```bash
-    pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-3. **Execute Notebooks**:
+3. **Run the Project**:
 
-Run the notebooks in the following order:
+   * **With Airflow**:
 
-data_preprocessing.ipynb
+     * Start Docker and run:
 
-sentiment_analysis.ipynb
+       ```bash
+       docker-compose up
+       ```
+     * Access the Airflow UI, trigger the DAG to run the Python scripts, and store results.
+     * Optionally, schedule the DAG to run at specified intervals.
+   * **Without Airflow**:
 
-correlation_analysis.ipynb
+     * Run the Python script(s) manually to execute the ETL pipeline.
 
-📈 Visualizations
-Include plots such as:
+4. **Transform and Load Data (ELT)**:
 
-Time series of average daily sentiment vs. stock prices.
+   * After ETL, use **DBT** to transform and load data into the warehouse.
+   * Can be triggered manually or scheduled via Airflow.
 
-Scatter plots showing sentiment scores against stock price changes.
+5. **Query and Visualization**:
 
-Heatmaps of correlation matrices.
+   * Use SQL queries in the DBT `models` folder to retrieve final outputs.
+   * Visualize results using tools like **Tableau**, **Power BI**, or **Apache Superset**.
 
-📬 Contact
-For questions or feedback, please contact savitha.vijayarangan09@gmail.com.
+---
+
+## 📈 Visualizations
+
+* Time series plots: Average daily sentiment vs. stock prices
+* Scatter plots: Sentiment scores vs. stock price changes
+* Correlation heatmaps: Sentiment metrics and price trends
+
+---
+
+## 📬 Contact
+
+For questions or feedback, please contact: **[savitha.vijayarangan09@gmail.com](mailto:savitha.vijayarangan09@gmail.com)**
+
+---
+
+Let me know if you'd like a shortened version or one formatted for a GitHub `README.md`.
