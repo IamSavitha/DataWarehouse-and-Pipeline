@@ -50,8 +50,8 @@ To assess whether sentiment extracted from tweets mentioning specific stocks can
 
 2. **Install Dependencies**:
 
-bash
-pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 3. **Execute Notebooks**:
 
