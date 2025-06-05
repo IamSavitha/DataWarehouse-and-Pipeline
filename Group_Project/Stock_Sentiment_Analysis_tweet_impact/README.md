@@ -15,14 +15,12 @@ To assess whether sentiment extracted from tweets mentioning specific stocks can
 - **Data Sources**:
   - Twitter API for tweet data
   - Yahoo Finance API for stock prices
-![alt text](image-1.png)
+
 ## 🔍 Methodology
 
 1. **Data Collection**:
    - Extracted tweets mentioning target stock tickers using the Twitter API.
    - Retrieved historical stock prices corresponding to the same time frame.
-   ![alt text](image-2.png)
-   ![alt text](image.png)
 
 2. **Data Preprocessing**:
    - Cleaned tweet text by removing URLs, mentions, hashtags, and special characters.
@@ -31,8 +29,6 @@ To assess whether sentiment extracted from tweets mentioning specific stocks can
 3. **Sentiment Analysis**:
    - Applied TextBlob to compute sentiment polarity scores for each tweet.
    - Categorized sentiments as positive, negative, or neutral based on polarity thresholds.
-
-   ![alt text](image-3.png)
 
 4. **Correlation Analysis**:
    - Aggregated daily sentiment scores.
