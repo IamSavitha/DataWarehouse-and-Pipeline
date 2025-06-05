@@ -55,8 +55,6 @@ To assess whether sentiment extracted from tweets mentioning specific stocks can
 
 3. **Execute Notebooks**:
 
-Navigate to the notebooks/ directory.
-
 Run the notebooks in the following order:
 
 data_preprocessing.ipynb
