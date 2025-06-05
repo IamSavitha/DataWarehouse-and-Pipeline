@@ -7,20 +7,6 @@ This project explores the correlation between Twitter sentiment and stock market
 
 To assess whether sentiment extracted from tweets mentioning specific stocks can serve as a predictor for stock price movements, thereby providing insights into market dynamics influenced by public opinion.
 
-## 📂 Project Structure
-├── data/
-│ ├── tweets.csv
-│ ├── stock_prices.csv
-├── notebooks/
-│ ├── data_preprocessing.ipynb
-│ ├── sentiment_analysis.ipynb
-│ ├── correlation_analysis.ipynb
-├── src/
-│ ├── data_cleaning.py
-│ ├── sentiment_model.py
-│ ├── utils.py
-├── requirements.txt
-├── README.md
 
 ## 🛠️ Tools & Technologies
 
