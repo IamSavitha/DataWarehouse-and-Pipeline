@@ -72,17 +72,10 @@ Scatter plots showing sentiment scores against stock price changes.
 
 Heatmaps of correlation matrices.
 
-🤝 Contributors
-Savitha Vijayarangan
-Bharathi 
-Jane 
-
 📬 Contact
 For questions or feedback, please contact savitha.vijayarangan09@gmail.com.
-
 
 ---
 
 This `README.md` provides a clear overview of your project's purpose, structure, methodology, and results. It also guides users on how to replicate your analysis. Make sure to replace placeholder links and emails with actual information relevant to your project. Let me know if you'd like assistance with any specific section or further customization!
-::contentReference[oaicite:0]{index=0}
- 
+
