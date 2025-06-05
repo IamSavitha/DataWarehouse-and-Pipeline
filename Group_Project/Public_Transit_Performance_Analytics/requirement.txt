@@ -1,0 +1,7 @@
+apache-airflow==2.6.3
+snowflake-connector-python==3.0.3
+pandas==2.0.3
+requests==2.31.0
+dbt-core==1.6.1
+dbt-snowflake==1.6.1
+apache-airflow-providers-snowflake==3.0.0

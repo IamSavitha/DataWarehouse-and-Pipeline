@@ -1,0 +1,21 @@
+[2025-05-06T02:11:05.015+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-06T02:11:05.031+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tesla_stock_sentiment_final_etl.merge_stock_and_sentiment_to_raw manual__2025-05-06T01:57:30.632042+00:00 [queued]>
+[2025-05-06T02:11:05.042+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tesla_stock_sentiment_final_etl.merge_stock_and_sentiment_to_raw manual__2025-05-06T01:57:30.632042+00:00 [queued]>
+[2025-05-06T02:11:05.045+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-05-06T02:11:05.058+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): merge_stock_and_sentiment_to_raw> on 2025-05-06 01:57:30.632042+00:00
+[2025-05-06T02:11:05.065+0000] {standard_task_runner.py:72} INFO - Started process 3775 to run task
+[2025-05-06T02:11:05.068+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'tesla_stock_sentiment_final_etl', 'merge_stock_and_sentiment_to_raw', 'manual__2025-05-06T01:57:30.632042+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/tesla_stock_etl.py', '--cfg-path', '/tmp/tmp2y9s3m8h']
+[2025-05-06T02:11:05.071+0000] {standard_task_runner.py:105} INFO - Job 21: Subtask merge_stock_and_sentiment_to_raw
+[2025-05-06T02:11:05.273+0000] {task_command.py:467} INFO - Running <TaskInstance: tesla_stock_sentiment_final_etl.merge_stock_and_sentiment_to_raw manual__2025-05-06T01:57:30.632042+00:00 [running]> on host ccc68f7ecbda
+[2025-05-06T02:11:05.383+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='tesla_stock_sentiment_final_etl' AIRFLOW_CTX_TASK_ID='merge_stock_and_sentiment_to_raw' AIRFLOW_CTX_EXECUTION_DATE='2025-05-06T01:57:30.632042+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-06T01:57:30.632042+00:00'
+[2025-05-06T02:11:05.384+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-06T02:11:05.682+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-05-06T02:11:05.792+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-05-06T02:11:08.082+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-05-06T02:11:08.083+0000] {logging_mixin.py:190} INFO - Incrementally merged into dev.raw.final_raw_table.
+[2025-05-06T02:11:08.084+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-06T02:11:08.096+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-06T02:11:08.097+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=tesla_stock_sentiment_final_etl, task_id=merge_stock_and_sentiment_to_raw, run_id=manual__2025-05-06T01:57:30.632042+00:00, execution_date=20250506T015730, start_date=20250506T021105, end_date=20250506T021108
+[2025-05-06T02:11:08.145+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-06T02:11:08.161+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-06T02:11:08.165+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

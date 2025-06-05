@@ -1,0 +1,22 @@
+[2025-05-03T23:59:07.991+0000] {processor.py:186} INFO - Started process (PID=588) to work on /opt/airflow/dags/tweet_sentiment_dag.py
+[2025-05-03T23:59:08.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tweet_sentiment_dag.py for tasks to queue
+[2025-05-03T23:59:08.098+0000] {logging_mixin.py:190} INFO - [2025-05-03T23:59:08.093+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/tweet_sentiment_dag.py
+[2025-05-03T23:59:08.268+0000] {processor.py:925} INFO - DAG(s) 'tweet_sentiment_dag' retrieved from /opt/airflow/dags/tweet_sentiment_dag.py
+[2025-05-03T23:59:09.058+0000] {logging_mixin.py:190} INFO - [2025-05-03T23:59:09.056+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:tweet_sentiment_dag
+[2025-05-03T23:59:09.084+0000] {logging_mixin.py:190} INFO - [2025-05-03T23:59:09.083+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:tweet_sentiment_dag
+[2025-05-03T23:59:09.102+0000] {logging_mixin.py:190} INFO - [2025-05-03T23:59:09.101+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:tweet_sentiment_dag
+[2025-05-03T23:59:09.123+0000] {logging_mixin.py:190} INFO - [2025-05-03T23:59:09.123+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:tweet_sentiment_dag
+[2025-05-03T23:59:09.143+0000] {logging_mixin.py:190} INFO - [2025-05-03T23:59:09.141+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:tweet_sentiment_dag
+[2025-05-03T23:59:09.164+0000] {logging_mixin.py:190} INFO - [2025-05-03T23:59:09.161+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:tweet_sentiment_dag
+[2025-05-03T23:59:09.191+0000] {logging_mixin.py:190} INFO - [2025-05-03T23:59:09.190+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:tweet_sentiment_dag
+[2025-05-03T23:59:09.193+0000] {logging_mixin.py:190} INFO - [2025-05-03T23:59:09.193+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-03T23:59:09.269+0000] {logging_mixin.py:190} INFO - [2025-05-03T23:59:09.269+0000] {dag.py:3252} INFO - Creating ORM DAG for tweet_sentiment_dag
+[2025-05-03T23:59:09.306+0000] {logging_mixin.py:190} INFO - [2025-05-03T23:59:09.306+0000] {dag.py:4156} INFO - Setting next_dagrun for tweet_sentiment_dag to 2025-05-03 22:00:00+00:00, run_after=2025-05-03 23:00:00+00:00
+[2025-05-03T23:59:09.369+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tweet_sentiment_dag.py took 1.612 seconds
+[2025-05-03T23:59:46.016+0000] {processor.py:186} INFO - Started process (PID=622) to work on /opt/airflow/dags/tweet_sentiment_dag.py
+[2025-05-03T23:59:46.018+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/tweet_sentiment_dag.py for tasks to queue
+[2025-05-03T23:59:46.047+0000] {logging_mixin.py:190} INFO - [2025-05-03T23:59:46.045+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/tweet_sentiment_dag.py
+[2025-05-03T23:59:46.146+0000] {processor.py:925} INFO - DAG(s) 'tweet_sentiment_dag' retrieved from /opt/airflow/dags/tweet_sentiment_dag.py
+[2025-05-03T23:59:46.322+0000] {logging_mixin.py:190} INFO - [2025-05-03T23:59:46.322+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-05-03T23:59:46.427+0000] {logging_mixin.py:190} INFO - [2025-05-03T23:59:46.427+0000] {dag.py:4156} INFO - Setting next_dagrun for tweet_sentiment_dag to 2025-05-03 22:00:00+00:00, run_after=2025-05-03 23:00:00+00:00
+[2025-05-03T23:59:46.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/tweet_sentiment_dag.py took 0.487 seconds
